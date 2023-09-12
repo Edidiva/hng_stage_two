@@ -55,6 +55,7 @@ The codebase requires the following environment configurations:
 
 The codebase for the App follows the following directory structure:
 
+```bash
 Hng_Stage_two/
 ├───src/
 │ ├───controller.js
@@ -66,6 +67,7 @@ Hng_Stage_two/
 ├───index.js
 ├───package.json
 └───README.md
+```
 
 
 - `src/`: Contains the main source code files.
@@ -74,8 +76,85 @@ Hng_Stage_two/
 - `package.json`: Dependencies and scripts configuration.
 - `README.md`: Documentation for the project.
 
+## Usage
+To start the application on your local environment, run the following command:
+  
+   ```shell
+    npm start
 
+Visit http://localhost:PORT in your web browser to access the application.
 
+## API Endpoints
 
+- **Create User:** 
+  - URL: `/api`
+  - Method: `POST`
+  - Description: Create a new user.
+  - Request Body:
+    - Example:
+      ```json
+      {
+        "name": "John Doe"
+      }
+      ```
+  - Response:
+    - Status Code: `201 Created`
+    - Example:
+      ```json
+      {
+        "name": "John Doe",
+        "id": "user_id"
+      }
+      ```
 
+- **Get User by ID:** 
+  - URL: `/api/:id`
+  - Method: `GET`
+  - Description: Retrieve user information by their ID.
+  - Response:
+    - Status Code: `200 OK`
+    - Example:
+      ```json
+      {
+        "name": "John Doe",
+        "id": "user_id"
+      }
+      ```
+
+- **Update User by ID:** 
+  - URL: `/api/users/:id`
+  - Method: `PUT`
+  - Description: Update user data by their ID.
+  - Request Body:
+    - Example:
+      ```json
+      {
+        "name": "Updated Name"
+      }
+      ```
+  - Response:
+    - Status Code: `200 OK`
+    - Example:
+      ```json
+      {
+        "name": "Updated Name",
+        "id": "user_id"
+      }
+      ```
+
+- **Delete User by ID:** 
+  - URL: `/api/users/:id`
+  - Method: `DELETE`
+  - Description: Delete a user by their ID.
+  - Response:
+    - Status Code: `200 OK`
+    - Example:
+      ```json
+      "User data deleted"
+      ```
+## API Documentation
+
+- For detailed API documentation and testing, please refer to the
+[Postman Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy)
+## API Documentation
 
