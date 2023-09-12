@@ -29,4 +29,14 @@ Before setting up the codebase, make sure you have the following prerequisites i
 
    ```shell
    git clone https://github.com/edidiva/hng_stage_two.git
+2. Change into the project directory:
+
+   ```shell
+   cd Hng_Stage_two
+3.To install the required dependencies, run the following command:
+
+   ```shell
+   npm install
+
+
 
