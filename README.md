@@ -28,5 +28,5 @@ Before setting up the codebase, make sure you have the following prerequisites i
 1. Clone this repository:
 
    ```shell
-   git clone https://github.com/yourusername/users-resource-app.git
+   git clone https://github.com/edidiva/hng_stage_two.git
 
