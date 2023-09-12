@@ -155,6 +155,17 @@ Visit http://localhost:PORT in your web browser to access the application.
 ## API Documentation
 
 - For detailed API documentation and testing, please refer to the
-[Postman Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy)
-## API Documentation
+[Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
+
+## Error Handling
+
+The API handles various error scenarios and returns appropriate HTTP status codes and error messages.
+
+## Contribution
+
+Contributions are welcome! Please fork this repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
 
