@@ -7,7 +7,7 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 - For detailed API documentation, please refer to the
  [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
 
--For tests, refer to the [PostmanTests](https://github.com/Edidiva/hng_stage_two/blob/main/postmanTest) file.
+- For tests, refer to the [PostmanTests](https://github.com/Edidiva/hng_stage_two/blob/main/test.js) file.
 
 
 ## Features
@@ -74,7 +74,7 @@ Hng_Stage_two/
 ├───.env
 ├───app.js
 ├───package.json
-├───postmanCollectionAndTest
+├───test.js
 └───README.md
 ```
 
@@ -84,7 +84,7 @@ Hng_Stage_two/
 - `app.js`: The entry point of the application.
 - `package.json`: Dependencies and scripts configuration.
 - `README.md`: Documentation for the project.
-- `postmanCollectionAndTest: postman tests for the endpoints.
+- `test.js: postman tests for the endpoints.
 
 ## Usage
 To start the application on your local environment, run the following command:
@@ -174,5 +174,5 @@ Contributions are welcome! Please fork this repository and create a pull request
 
 ## License
 
-This project is licensed under the MIT License.
+License.
 
