@@ -5,7 +5,7 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 ## API Documentation
 
 - For detailed API documentation and testing, please refer to the
- [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy/).
+ [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
 
 ## Features
 
