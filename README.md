@@ -132,7 +132,7 @@ Visit http://localhost:PORT in your web browser to access the application.
       ```
 
 - **Update User by ID:** 
-  - URL: `/api/users/:id`
+  - URL: `/api/:id`
   - Method: `PUT`
   - Description: Update user data by their ID.
   - Request Body:
@@ -153,7 +153,7 @@ Visit http://localhost:PORT in your web browser to access the application.
       ```
 
 - **Delete User by ID:** 
-  - URL: `/api/users/:id`
+  - URL: `/api/:id`
   - Method: `DELETE`
   - Description: Delete a user by their ID.
   - Response:
