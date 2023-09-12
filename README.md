@@ -16,6 +16,12 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 - MongoDB
 - Mongoose
 - Joi for validation
+## Prerequisites
+Before setting up the codebase, make sure you have the following prerequisites installed:
+
+- [Node.js](https://nodejs.org/) (version 18 or above)
+- [Git](https://git-scm.com/)
+
 
 ## Installation
 
@@ -23,3 +29,4 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 
    ```shell
    git clone https://github.com/yourusername/users-resource-app.git
+
