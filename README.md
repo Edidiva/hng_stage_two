@@ -72,7 +72,7 @@ Hng_Stage_two/
 │ └───validator.js
 │
 ├───.env
-├───index.js
+├───app.js
 ├───package.json
 ├───postmanCollectionAndTest
 └───README.md
@@ -81,9 +81,10 @@ Hng_Stage_two/
 
 - `src/`: Contains the main source code files.
 - `.env`: Configuration file for environment variables.
-- `index.js`: The entry point of the application.
+- `app.js`: The entry point of the application.
 - `package.json`: Dependencies and scripts configuration.
 - `README.md`: Documentation for the project.
+- `postmanCollectionAndTest: postman tests for the endpoints.
 
 ## Usage
 To start the application on your local environment, run the following command:
