@@ -4,7 +4,7 @@ const { createPerson, deletePerson, getPerson, updatePerson } = require('./contr
 const router = express.Router();
 
 router.post('/', createPerson);
-router.get('/', getPerson);
+router.get('/:id', getPerson);
 router.put('/:id', updatePerson);
 router.delete('/:id', deletePerson);
 
