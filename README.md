@@ -4,8 +4,11 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 
 ## API Documentation
 
-- For detailed API documentation and testing, please refer to the
+- For detailed API documentation, please refer to the
  [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
+
+ -For tests, refer to the [PostmanTests](./postmanCollectionAndTest.json) file.
+
 
 ## Features
 
@@ -71,6 +74,7 @@ Hng_Stage_two/
 ├───.env
 ├───index.js
 ├───package.json
+├───postmanCollectionAndTest
 └───README.md
 ```
 
