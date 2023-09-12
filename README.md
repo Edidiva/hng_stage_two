@@ -7,7 +7,7 @@ This is a simple Users Resource App that allows you to perform CRUD (Create, Rea
 - For detailed API documentation, please refer to the
  [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
 
- -For tests, refer to the [PostmanTests](./postmanCollectionAndTest.json) file.
+ -For tests, refer to the [PostmanTests](https://github.com/Edidiva/hng_stage_two/blob/main/postmanCollectionAndTest) file.
 
 
 ## Features
