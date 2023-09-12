@@ -31,7 +31,7 @@ const createPerson = async (req, res, next) => {
 // getPerson function
 const getPerson = async (req, res, next) => {
     try {
-        const { id } = req.query; // Get the ID from request parameters
+        const { id } = req.params; // Get the ID from request parameters
         if (!mongoose.Types.ObjectId.isValid(id)) {
             return res.status(400).json({
                 error: 'Invalid ID format',
