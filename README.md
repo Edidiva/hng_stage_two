@@ -33,10 +33,25 @@ Before setting up the codebase, make sure you have the following prerequisites i
 
    ```shell
    cd Hng_Stage_two
-3.To install the required dependencies, run the following command:
+3. To install the required dependencies, run the following command:
 
    ```shell
    npm install
+
+## Configuration
+
+The codebase requires the following environment configurations:
+
+1. Create a `.env` file in the root directory of the project.
+
+2. Open the `.env` file and add the following configurations:
+
+   ```shell
+   DATABASE_URL=mongodb://localhost:27017/{your-database-name}
+   API_KEY=your-api-key
+   PORT=your-port-number
+
+
 
 
 
