@@ -2,6 +2,11 @@
 
 This is a simple Users Resource App that allows you to perform CRUD (Create, Read, Update, Delete) operations on user data.
 
+## API Documentation
+
+- For detailed API documentation and testing, please refer to the
+ [Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy/).
+
 ## Features
 
 - **Create:** Add new users to the system.
@@ -151,11 +156,8 @@ Visit http://localhost:PORT in your web browser to access the application.
     - Example:
       ```json
       "User data deleted"
+ 
       ```
-## API Documentation
-
-- For detailed API documentation and testing, please refer to the
-[Postman API Documentation](https://documenter.getpostman.com/view/24486336/2s9YC31thy).
 
 ## Error Handling
 
