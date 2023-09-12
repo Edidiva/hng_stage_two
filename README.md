@@ -51,6 +51,22 @@ The codebase requires the following environment configurations:
    API_KEY=your-api-key
    PORT=your-port-number
 
+## Directory Structure
+
+The codebase for the App follows the following directory structure:
+
+Hng_Stage_two/
+├───src/
+│ ├───controller.js
+│ ├───model.js
+│ ├───router.js
+│ └───validator.js
+│
+├───.env
+├───index.js
+├───package.json
+└───README.md
+
 
 
 
