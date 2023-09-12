@@ -68,6 +68,14 @@ Hng_Stage_two/
 └───README.md
 
 
+- `src/`: Contains the main source code files.
+- `.env`: Configuration file for environment variables.
+- `index.js`: The entry point of the application.
+- `package.json`: Dependencies and scripts configuration.
+- `README.md`: Documentation for the project.
+
+
+
 
 
 
