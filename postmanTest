@@ -2,10 +2,10 @@
 	"info": {
 		"_postman_id": "b8f60282-398e-429d-bcf7-be967aa41050",
 		"name": "hng-stage-two",
-		"description": "# Hng-Stage-two\n\nWelcome to the Hng-Stage-two App codebase!\n\nThe Hng-stage-2 App is an application designed to manage and interact with a database of individuals' information. Below are the endpoints for the hng-stage-two app.",
+		"description": "# Hng-Stage-two\n\nWelcome to the Hng-Stage-two App codebase!\n\nThe Hng-stage-two App is an application designed to manage and interact with a database of individuals' information. Below are the endpoints for the hng-stage-two app.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "24486336",
-		"_collection_link": "https://blue-moon-528652.postman.co/workspace/New-Team-Workspace~5d526a47-c9bf-4764-a676-57a10cdf1bc4/collection/24486336-b8f60282-398e-429d-bcf7-be967aa41050?action=share&source=collection_link&creator=24486336"
+		"_collection_link": "https://blue-moon-528652.postman.co/workspace/5d526a47-c9bf-4764-a676-57a10cdf1bc4/collection/24486336-b8f60282-398e-429d-bcf7-be967aa41050?action=share&source=collection_link&creator=24486336"
 	},
 	"item": [
 		{
@@ -674,7 +674,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://hng-stage-two-uyug.onrender.com/api?id=64ff9526b28ef124b3e17c45",
+					"raw": "https://hng-stage-two-uyug.onrender.com/api/65009d2d5cd52788b0465e75",
 					"protocol": "https",
 					"host": [
 						"hng-stage-two-uyug",
@@ -682,16 +682,11 @@
 						"com"
 					],
 					"path": [
-						"api"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "64ff9526b28ef124b3e17c45"
-						}
+						"api",
+						"65009d2d5cd52788b0465e75"
 					]
 				},
-				"description": "- **Reading a User Record:**\n    \n    - Send a GET request to the `/api` endpoint with the user's ID as a query parameter."
+				"description": "- **Reading a User Record:**\n    \n    - Send a GET request to the `/api/:id` endpoint with the user's ID as a route parameter."
 			},
 			"response": [
 				{
