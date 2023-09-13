@@ -84,12 +84,12 @@ Hng_Stage_two/
 - `app.js`: The entry point of the application.
 - `package.json`: Dependencies and scripts configuration.
 - `README.md`: Documentation for the project.
-- `test.js: postman tests for the endpoints.
+- `test.js`: postman tests for the endpoints.
 
 ## Usage
 To start the application on your local environment, run the following command:
   
-   ```shell
+    ```shell
     npm start
 
 Visit http://localhost:PORT in your web browser to access the application.
